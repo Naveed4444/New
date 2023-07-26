@@ -16,11 +16,7 @@ case 'B': return 2;
 case 'C': return 3;
 case 'a': return 0;
 case 'b': return 1;
-case 'c': return 2;
-case 'd': return 3;
-case '$': return 4;
-}
-return(2);
+can(2);
 }
 void main()
 {
@@ -71,3 +67,4 @@ if(j==5)
 printf("\n--------------------------------------------------------\n");
 }
 }
+
